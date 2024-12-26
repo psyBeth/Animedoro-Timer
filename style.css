@@ -17,6 +17,7 @@ body {
 }
 
 #anime-bg {
+    background-image: url(https://images4.alphacoders.com/987/987919.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
