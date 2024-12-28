@@ -40,3 +40,11 @@ body {
     backdrop-filter: blur(7.7px);
     -webkit-backdrop-filter: blur(7.7px);
 }
+
+.frame-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
