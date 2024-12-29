@@ -41,11 +41,17 @@ body {
     -webkit-backdrop-filter: blur(7.7px);
 }
 
-.frame-overlay {
+#frame-overlay {
+    background: #fff;
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
     border-radius: 20px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
 }
