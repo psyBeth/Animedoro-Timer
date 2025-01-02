@@ -77,4 +77,11 @@ body.page-loaded #frame-overlay {
     justify-content: center;
     color: #fff;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#timer-settings {
+    height: 60px;
+    top: 20px;
+    right: 20px;
 }
