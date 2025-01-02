@@ -65,3 +65,16 @@ body.page-loaded #frame-overlay {
     width: 150px;
     height: 150px;
 }
+
+.btn-icon {
+    border-radius: 28px;
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    width: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
