@@ -2,6 +2,8 @@
 
     const fehBody = document.body;
 
-    window.addEventListener('load')
+    window.addEventListener('load', () => {
+        fehBody.classList.add('page-loaded');
+    });
 
 })();
