@@ -85,3 +85,14 @@ body.page-loaded #frame-overlay {
     top: 20px;
     right: 20px;
 }
+
+#timer-progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.circle-timer {
+    width: 270px;
+    height: 270px;
+}
