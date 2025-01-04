@@ -96,3 +96,15 @@ body.page-loaded #frame-overlay {
     width: 270px;
     height: 270px;
 }
+
+.circle-background {
+    stroke: #FF13F0;
+    stroke-width: 9;
+    fill: none;
+}
+
+.circle-progress {
+    stroke: #FF13F0;
+    stroke-width: 7;
+    fill: none;
+}
