@@ -98,7 +98,7 @@ body.page-loaded #frame-overlay {
 }
 
 .circle-background {
-    stroke: #FF13F0;
+    stroke: #ffffff;
     stroke-width: 9;
     fill: none;
 }
@@ -106,5 +106,9 @@ body.page-loaded #frame-overlay {
 .circle-progress {
     stroke: #FF13F0;
     stroke-width: 7;
+    stroke-linecap: round;
+    stroke-dasharray: 282;
     fill: none;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
 }
