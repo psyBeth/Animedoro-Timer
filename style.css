@@ -122,3 +122,11 @@ body.page-loaded #frame-overlay {
     transition: all 0.3s ease-in-out;
     fill: #FF13F0;
 }
+
+#timer-sessions {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    color: #FF13F0;
+}
