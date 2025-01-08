@@ -129,4 +129,5 @@ body.page-loaded #frame-overlay {
     background: #fff;
     border-radius: 50px;
     color: #FF13F0;
+    transition: all 0.3s ease-in-out;
 }
