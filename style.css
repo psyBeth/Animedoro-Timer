@@ -131,3 +131,8 @@ body.page-loaded #frame-overlay {
     color: #FF13F0;
     transition: all 0.3s ease-in-out;
 }
+
+#timer-sessions p {
+    padding: 1em;
+}
+
