@@ -136,3 +136,12 @@ body.page-loaded #frame-overlay {
     padding: 1em;
 }
 
+#complete-label {
+    width: 80%;
+    text-align: center;
+}
+
+#complete-sessions {
+    font-weight: bold;
+    color: #FF13F0;
+}
