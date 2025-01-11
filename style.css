@@ -143,5 +143,6 @@ body.page-loaded #frame-overlay {
 
 #complete-sessions {
     font-weight: bold;
+    font-size: 20px;
     color: #FF13F0;
 }
