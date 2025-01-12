@@ -146,3 +146,8 @@ body.page-loaded #frame-overlay {
     font-size: 20px;
     color: #FF13F0;
 }
+
+#timer-functions {
+    height: 145px;
+    position: relative;
+}
