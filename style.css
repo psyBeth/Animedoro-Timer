@@ -161,3 +161,16 @@ body.page-loaded #frame-overlay {
     align-items: center;
     transition: all 0.3s ease-in-out;
 }
+
+#timer-buttons button {
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #FF13F0;
+    position: absolute;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
