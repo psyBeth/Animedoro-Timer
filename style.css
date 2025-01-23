@@ -171,7 +171,13 @@ body.page-loaded #frame-overlay {
 
 #timer-form {
     border-radius: 20px;
+    padding: 20px;
     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #FF13F0;
+    z-index: 1;
 }
 
 #timer-buttons {
