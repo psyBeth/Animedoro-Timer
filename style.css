@@ -192,6 +192,12 @@ body.page-loaded #frame-overlay {
     font-size: 18px;
 }
 
+#timer-line label {
+    width: 50%;
+    color: #ffffffc7;
+    padding: 10px 0px 10px 0px;
+}
+
 #timer-buttons {
     width: 100%;
     height: 100%;
