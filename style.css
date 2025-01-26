@@ -203,7 +203,9 @@ body.page-loaded #frame-overlay {
     margin-left: -2px;
     color: #5c5c5c;
     background: #ffffff;
+    border: none;
     border-radius: 10px;
+    text-align: center;
 }
 
 #timer-buttons {
