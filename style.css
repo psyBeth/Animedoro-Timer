@@ -208,6 +208,11 @@ body.page-loaded #frame-overlay {
     text-align: center;
 }
 
+#timer-form input::-webkit-outer-spin-button, 
+#timer-form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 #timer-buttons {
     width: 100%;
     height: 100%;
