@@ -213,6 +213,10 @@ body.page-loaded #frame-overlay {
     -webkit-appearance: none;
 }
 
+#timer-form input[type=number] {
+    -moz-appearance: textfield;
+}
+
 #timer-buttons {
     width: 100%;
     height: 100%;
