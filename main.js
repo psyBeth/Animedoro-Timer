@@ -7,6 +7,11 @@
     const timerTime = document.getElementById('timer-time');
 
     let workDuration = parseInt(workDurationInput.value) * 60;
+    let restDuration = parseInt(restDurationInput.value) * 60;
+    let remainingTime = workDuration;
+    let isPaused = true;
+    let isWorking = true;
+    let intervalId;
 
     window.addEventListener('load', () => {
         fehBody.classList.add('page-loaded');
