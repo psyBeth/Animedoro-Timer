@@ -13,8 +13,12 @@
     let isWorking = true;
     let intervalId;
 
+    //* Page Load
     window.addEventListener('load', () => {
         fehBody.classList.add('page-loaded');
     });
+
+    //* Start Button
+    const startBtn = document.getElementById('start-btn');
 
 })();
