@@ -152,6 +152,7 @@ body.page-loaded #frame-overlay {
     position: relative;
 }
 
+/*todo: this part is distorted, edit & fix */
 #timer-settings {
     /* opacity: 0;
     visibility: hidden; */
