@@ -21,4 +21,8 @@
     //* Start Button
     const startBtn = document.getElementById('start-btn');
 
+    startBtn.addEventListener('click', () => {
+        isPaused = false;
+    });
+
 })();
