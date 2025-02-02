@@ -23,6 +23,11 @@
 
     startBtn.addEventListener('click', () => {
         isPaused = false;
+
+        fehBody.classList.add('timer-running');
+        if(isWorking) {
+            fehBody.classList.remove('timer-paused');
+        }
     });
 
 })();
