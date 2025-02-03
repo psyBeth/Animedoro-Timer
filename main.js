@@ -27,6 +27,9 @@
         fehBody.classList.add('timer-running');
         if(isWorking) {
             fehBody.classList.remove('timer-paused');
+        } else {
+            fehBody.classList.add('rest-mode');
+            fehBody.classList.remove('timer-paused');
         }
     });
 
