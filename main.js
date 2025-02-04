@@ -47,6 +47,12 @@
             if(remainingTime <= 0) {
                 isWorking = !isWorking;
                 remainingTime = isWorking ? workDuration : restDuration;
+
+                if(!isWorking) {
+                    fehBody.classList.add('rest-mode');
+                    fehBody.classList.remove('timer-running');
+                }
+                
             }
 
         }
