@@ -41,9 +41,13 @@
     //* Update Timer
     function updateTimer() {
 
-        if(!isPaused) {
-            
+        if(!isPaused) {  
             remainingTime--;
+
+            if(remainingTime <= 0) {
+                isWorking = !isWorking;
+                remainingTime = isWorking ? workDuration : restDuration;
+            }
 
         }
     }
