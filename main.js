@@ -31,6 +31,9 @@
             fehBody.classList.add('rest-mode');
             fehBody.classList.remove('timer-paused');
         }
+        if(!intervalId) {
+            intervalId = setInterval(updateTimer, 1000);
+        }
     });
 
 })();
