@@ -51,10 +51,16 @@
                 if(!isWorking) {
                     fehBody.classList.add('rest-mode');
                     fehBody.classList.remove('timer-running');
+                } else {
+                    fehBody.classList.remove('rest-mode');
+                    fehBody.classList.remove('timer-running');
                 }
-                
+
+                isPaused = false;
+                fehBody.classList.remove('timer-work-active');
             }
 
+            console.log(remainingTime);
         }
     }
 
