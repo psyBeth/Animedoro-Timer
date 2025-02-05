@@ -60,7 +60,7 @@
                 fehBody.classList.remove('timer-work-active');
             }
 
-            console.log(remainingTime);
+            updateProgress();
         }
     }
 
