@@ -69,6 +69,8 @@
         const radius = 45;
         const circumference = 2 * Math.PI * radius;
 
+        console.log(circumference);
+
         const totalDuration = isWorking ? workDuration : restDuration;
         const dashOffset = circumference * remainingTime / totalDuration;
     }
