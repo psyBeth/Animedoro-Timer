@@ -5,6 +5,7 @@
     const workDurationInput = document.getElementById('work-duration');
     const restDurationInput = document.getElementById('rest-duration');
     const timerTime = document.getElementById('timer-time');
+    const circleProgress = document.getElementById('circle-progress');
 
     let workDuration = parseInt(workDurationInput.value) * 60;
     let restDuration = parseInt(restDurationInput.value) * 60;
@@ -69,10 +70,11 @@
         const radius = 45;
         const circumference = 2 * Math.PI * radius;
 
-        console.log(circumference);
-
         const totalDuration = isWorking ? workDuration : restDuration;
         const dashOffset = circumference * remainingTime / totalDuration;
+
+        circleProgress.style.strokeDashoffset = dashOffset;
+        timerTime.textContent = formatTime(remainingTime);
     }
 
 })();
