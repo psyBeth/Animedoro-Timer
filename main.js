@@ -83,4 +83,6 @@
         return `${minutes.toString().padStart(2, '0')} : ${remainingSeconds.toString().padStart(2, '0')}`;
     }
 
+    updateProgress();
+
 })();
