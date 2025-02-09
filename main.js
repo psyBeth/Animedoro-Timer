@@ -5,7 +5,7 @@
     const workDurationInput = document.getElementById('work-duration');
     const restDurationInput = document.getElementById('rest-duration');
     const timerTime = document.getElementById('timer-time');
-    const circleProgress = document.getElementById('circle-progress');
+    const circleProgress = document.querySelector('.circle-progress');
 
     let workDuration = parseInt(workDurationInput.value) * 60;
     let restDuration = parseInt(restDurationInput.value) * 60;
