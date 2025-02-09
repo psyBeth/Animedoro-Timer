@@ -39,6 +39,12 @@
         }
     });
 
+    //* Pause Button
+    const pauseBtn = document.getElementById('pause-btn');
+    pauseBtn.addEventListener('click', () => {
+        isPaused = true;
+    });
+
     //* Update Timer
     function updateTimer() {
 
