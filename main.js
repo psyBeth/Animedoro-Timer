@@ -43,6 +43,9 @@
     const pauseBtn = document.getElementById('pause-btn');
     pauseBtn.addEventListener('click', () => {
         isPaused = true;
+
+        fehBody.classList.remove('timer-running');
+        fehBody.classList.add('timer-paused');
     });
 
     //* Update Timer
