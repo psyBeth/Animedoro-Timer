@@ -48,6 +48,8 @@
         fehBody.classList.add('timer-paused');
     });
 
+    //* Settings
+
     //* Update Timer
     function updateTimer() {
 
