@@ -49,6 +49,8 @@
     });
 
     //* Settings
+    const btnToggleSettings = document.getElementById('timer-settings');
+    const btnCloseSettings = document.getElementById('close-settings');
 
     //* Update Timer
     function updateTimer() {
