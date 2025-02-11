@@ -52,6 +52,11 @@
     const btnToggleSettings = document.getElementById('timer-settings');
     const btnCloseSettings = document.getElementById('close-settings');
 
+    function setBodySettings() {
+        fehBody.classList.contains('settings-active') ? fehBody.remove('settings-active') : fehBody.add('settings-active');
+        
+    }
+
     //* Update Timer
     function updateTimer() {
 
