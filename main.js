@@ -54,7 +54,14 @@
 
     function setBodySettings() {
         fehBody.classList.contains('settings-active') ? fehBody.remove('settings-active') : fehBody.add('settings-active');
-        
+    }
+
+    function toggleSettings() {
+        if(event.type === 'click') {
+            setBodySettings();
+        } else if(event.type === 'keydown' && event.keyCode === 27) {
+            fehBody.classList.remove('settings-active');
+        }
     }
 
     //* Update Timer
