@@ -56,8 +56,7 @@
         fehBody.classList.contains('settings-active') ? fehBody.remove('settings-active') : fehBody.add('settings-active');
     }
 
-    //! event deprecated!!!!
-    function toggleSettings() {
+    function toggleSettings(event) {
         if(event.type === 'click') {
             setBodySettings();
         } else if(event.type === 'keydown' && event.keyCode === 27) {
