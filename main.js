@@ -64,6 +64,10 @@
         }
     }
 
+    btnToggleSettings.addEventListener('click', toggleSettings);
+    btnCloseSettings.addEventListener('click', toggleSettings);
+    document.addEventListener('keydown', toggleSettings);
+
     //* Update Timer
     function updateTimer() {
 
