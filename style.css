@@ -123,6 +123,11 @@ body.page-loaded #frame-overlay {
     fill: #FF13F0;
 }
 
+body.settings-active #timer-settings {
+    opacity: 0;
+    visibility: visible;
+}
+
 #timer-sessions {
     display: flex;
     align-items: center;
