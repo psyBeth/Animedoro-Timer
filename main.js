@@ -53,7 +53,7 @@
     const btnCloseSettings = document.getElementById('close-settings');
 
     function setBodySettings() {
-        fehBody.classList.contains('settings-active') ? fehBody.remove('settings-active') : fehBody.add('settings-active');
+        fehBody.classList.contains('settings-active') ? fehBody.classList.remove('settings-active') : fehBody.classList.add('settings-active');
     }
 
     function toggleSettings(event) {

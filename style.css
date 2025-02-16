@@ -124,7 +124,7 @@ body.page-loaded #frame-overlay {
 }
 
 body.settings-active #timer-settings {
-    opacity: 0;
+    opacity: 1;
     visibility: visible;
 }
 
