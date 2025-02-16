@@ -128,6 +128,12 @@ body.settings-active #timer-settings {
     visibility: visible;
 }
 
+body.settings-active #timer-sessions,
+body.settings-active #timer-buttons {
+    opacity: 0;
+    visibility: hidden;
+}
+
 #timer-sessions {
     display: flex;
     align-items: center;
