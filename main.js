@@ -68,6 +68,15 @@
     btnCloseSettings.addEventListener('click', toggleSettings);
     document.addEventListener('keydown', toggleSettings);
 
+    //* Work / Rest Settings
+    workDurationInput.addEventListener('change', () => {
+        workDuration = parseInt(workDurationInput.value) * 60;
+        if(isWorking) {
+            remainingTime = workDuration;
+            updateProgress();
+        }
+    });
+
     //* Update Timer
     function updateTimer() {
 
