@@ -14,6 +14,9 @@
     let isWorking = true;
     let intervalId;
 
+    const completedSessionsElement = document.getElementById('completed-sessions');
+    let completedSessions = 0;
+
     //* Page Load
     window.addEventListener('load', () => {
         fehBody.classList.add('page-loaded');
@@ -98,6 +101,10 @@
                 if(!isWorking) {
                     fehBody.classList.add('rest-mode');
                     fehBody.classList.remove('timer-running');
+
+                    completedSessions ++;
+                    completedSessionsElement.textContent = completedSessions;
+
                 } else {
                     fehBody.classList.remove('rest-mode');
                     fehBody.classList.remove('timer-running');
