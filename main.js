@@ -77,6 +77,14 @@
         }
     });
 
+    restDurationInput.addEventListener('change', () => {
+        restDuration = parseInt(restDurationInput.value) * 60;
+        if(isWorking) {
+            remainingTime = workDuration;
+            updateProgress();
+        }
+    });
+
     //* Update Timer
     function updateTimer() {
 
