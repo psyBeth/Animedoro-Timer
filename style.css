@@ -251,3 +251,8 @@ body.settings-active #timer-buttons {
     height: 60px;
     display: block;
 }
+
+body.timer-running #start-btn {
+    opacity: 0;
+    visibility: hidden;
+}
