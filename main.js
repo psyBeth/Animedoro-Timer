@@ -94,6 +94,8 @@
         if(!isPaused) {  
             remainingTime--;
 
+            //! audios
+
             if(remainingTime <= 0) {
                 isWorking = !isWorking;
                 remainingTime = isWorking ? workDuration : restDuration;
