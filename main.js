@@ -94,7 +94,9 @@
         if(!isPaused) {  
             remainingTime--;
 
-            //! audios
+            //! audios!!
+            // const workFinished = new Audio('');
+            // const restFinished = new Audio('');
 
             if(remainingTime <= 0) {
                 isWorking = !isWorking;
