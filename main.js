@@ -95,8 +95,9 @@
             remainingTime--;
 
             //! audios!!
-            // const workFinished = new Audio('');
-            // const restFinished = new Audio('');
+            let playAlarm;
+            const workFinished = new Audio('');
+            const restFinished = new Audio('');
 
             if(remainingTime <= 0) {
                 isWorking = !isWorking;
@@ -113,6 +114,8 @@
                     fehBody.classList.remove('rest-mode');
                     fehBody.classList.remove('timer-running');
                 }
+
+                playAlarm = isWorking ? restFinished : workFinished;
 
                 isPaused = false;
                 fehBody.classList.remove('timer-work-active');
