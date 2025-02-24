@@ -116,6 +116,7 @@
                 }
 
                 playAlarm = isWorking ? restFinished : workFinished;
+                playAlarm.play();
 
                 isPaused = false;
                 fehBody.classList.remove('timer-work-active');
