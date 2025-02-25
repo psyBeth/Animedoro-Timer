@@ -122,6 +122,8 @@
                 fehBody.classList.remove('timer-work-active');
             }
 
+            document.title = timerTime.textContent = formatTime(remainingTime);
+
             updateProgress();
         }
     }
