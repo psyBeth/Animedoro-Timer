@@ -123,6 +123,7 @@
             }
 
             document.title = timerTime.textContent = formatTime(remainingTime);
+            // newline problem
 
             updateProgress();
         }
