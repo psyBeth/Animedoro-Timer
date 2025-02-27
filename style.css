@@ -261,3 +261,9 @@ body.timer-paused #start-btn {
     opacity: 1;
     visibility: visible;
 }
+
+body.timer-paused:not(.rest-mode) #timer-pause,
+body.rest-mode #timer-text,
+body.rest-mode.timer-paused #timer-pause {
+    opacity: 1;
+}
