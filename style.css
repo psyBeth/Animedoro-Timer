@@ -267,3 +267,7 @@ body.rest-mode #timer-text,
 body.rest-mode.timer-paused #timer-pause {
     opacity: 1;
 }
+
+body.rest-mode.timer-paused #timer-rest {
+    opacity: 0;
+}
