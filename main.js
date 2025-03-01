@@ -52,6 +52,7 @@
     });
 
     //* Settings
+    //! an issue here !!!!!
     const btnToggleSettings = document.getElementById('timer-settings');
     const btnCloseSettings = document.getElementById('close-settings');
 

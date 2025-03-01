@@ -263,7 +263,7 @@ body.timer-paused #start-btn {
 }
 
 body.timer-paused:not(.rest-mode) #timer-pause,
-body.rest-mode #timer-text,
+body.rest-mode #timer-rest,
 body.rest-mode.timer-paused #timer-pause {
     opacity: 1;
 }
