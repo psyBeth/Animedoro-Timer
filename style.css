@@ -31,6 +31,10 @@ body.rest-mode #anime-bg {
     filter: blur(5px) grayscale(0.6) brightness(0.5);
 }
 
+body.rest-mode #circle-progress {
+    stroke: #fd525385;
+}
+
 #frame-pomodoro {
     border: 1px solid rgba(255, 255, 255, 0.64);
     position: relative;
