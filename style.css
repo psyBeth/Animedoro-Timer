@@ -36,6 +36,10 @@ body.rest-mode #circle-progress {
     stroke: #fd525385;
 }
 
+body.timer-running .circle-progress {
+    transition: all 1s linear;
+}
+
 #frame-pomodoro {
     border: 1px solid rgba(255, 255, 255, 0.64);
     position: relative;
