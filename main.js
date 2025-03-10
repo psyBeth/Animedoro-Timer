@@ -52,8 +52,7 @@
     });
 
     //* Settings
-    //! an issue here !!!!!
-    const btnToggleSettings = document.getElementById('timer-settings');
+    const btnToggleSettings = document.querySelector('.btn-icon');
     const btnCloseSettings = document.getElementById('close-settings');
 
     function setBodySettings() {
