@@ -2,7 +2,6 @@
 
 - title will be bigger
 
-- settings button will be fixed
 - settings will be re-styled
 - audios will be added for session changes
 - background image will change 
