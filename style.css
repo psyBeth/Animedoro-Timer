@@ -265,6 +265,12 @@ body.settings-active #timer-buttons {
     display: block;
 }
 
+/* doesn't render */
+#timer-buttons #pause-btn {
+    color: #ffffff;
+    font-size: 24px;
+}
+
 body.timer-running #start-btn {
     opacity: 0;
     visibility: hidden;
