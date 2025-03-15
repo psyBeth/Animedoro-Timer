@@ -140,11 +140,10 @@ body.settings-active #timer-settings {
     visibility: visible;
 }
 
-/*! this will be checked*/
 body.settings-active #timer-sessions,
 body.settings-active #timer-buttons {
-    /* opacity: 0; */
-    /* visibility: hidden; */
+    opacity: 0;
+    visibility: hidden;
 }
 
 #timer-sessions {
@@ -176,6 +175,8 @@ body.settings-active #timer-buttons {
     position: relative;
 }
 
+
+/*! edit here more */
 #timer-settings {
     opacity: 0;
     visibility: hidden;
