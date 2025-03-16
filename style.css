@@ -175,8 +175,6 @@ body.settings-active #timer-buttons {
     position: relative;
 }
 
-
-/*! edit here more */
 #timer-settings {
     opacity: 0;
     visibility: hidden;
