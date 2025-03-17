@@ -221,7 +221,7 @@ body.settings-active #timer-buttons {
     padding: 10px 0px 10px 0px;
 }
 
-/*todo: these will be edited */
+/*todo: detect issue & these will be edited */
 #timer-line label input{
     width: 50%;
     margin-left: -2px;
