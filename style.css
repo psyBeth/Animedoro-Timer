@@ -211,6 +211,7 @@ body.settings-active #timer-buttons {
     margin-top: 20px;
 }
 
+/*! something wrong here*/
 #timer-line * {
     font-size: 18px;
 }
