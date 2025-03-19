@@ -5,3 +5,4 @@
 - settings will be re-styled
 - audios will be added for session changes
 - background image will change 
+- there's sth wrong with the inputs
