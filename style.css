@@ -203,6 +203,7 @@ body.settings-active #timer-buttons {
     z-index: 1;
 }
 
+/*! this will be checked */
 #timer-line {
     display: flex;
 }
@@ -211,7 +212,6 @@ body.settings-active #timer-buttons {
     margin-top: 20px;
 }
 
-/*! something wrong here*/
 #timer-line * {
     font-size: 18px;
 }
