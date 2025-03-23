@@ -266,6 +266,8 @@ body.settings-active #timer-buttons {
 #timer-buttons #pause-btn {
     color: #ffffff;
     font-size: 24px;
+    display: block;
+    opacity: 1;
 }
 
 body.timer-running #start-btn {
