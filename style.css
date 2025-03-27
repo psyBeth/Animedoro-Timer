@@ -279,12 +279,22 @@ body.timer-paused #start-btn {
     visibility: visible;
 }
 
-body.timer-paused:not(.rest-mode) #timer-pause,
-body.rest-mode #timer-rest,
-body.rest-mode.timer-paused #timer-pause {
+body.timer-paused:not(.rest-mode) #timer-pause {
     opacity: 1;
+    visibility: visible;
+}
+
+body.rest-mode #timer-rest {
+    opacity: 1;
+    visibility: visible;
+}
+
+body.rest-mode.timer-paused #timer-pause {
+    opacity: 0;
+    visibility: hidden;
 }
 
 body.rest-mode.timer-paused #timer-rest {
-    opacity: 0;
+    opacity: 1;
+    visibility: visible;
 }
