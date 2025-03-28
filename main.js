@@ -94,7 +94,7 @@
         if(!isPaused) {  
             remainingTime--;
 
-            //! audios!!
+            //! audios will be here!!
             let playAlarm;
             const workFinished = new Audio('');
             const restFinished = new Audio('');
